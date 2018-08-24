@@ -1,12 +1,14 @@
 # DeepMatching (CPU)
 
-Two remote sensing image matching of different sizes based on deep convolution matching algorithm（Deep Matching）：
+Two remote sensing image matching of different sizes based on deep convolution matching algorithm（Deep Matching）
 
 Environment：
 
 ubuntu14.04
 
 cafee
+
+C++
 
 Compile：
 make clean all
@@ -19,6 +21,6 @@ Use：
 
 Based:
 
-Forked from Revaud et al.'s *DeepMatching: Hierarchical Deformable Dense Matching*. ([Project page](https://thoth.inrialpes.fr/src/deepmatching/)). Adapted to run on Ubuntu 16.04 Xenial
+Forked from Revaud et al.'s *DeepMatching: Hierarchical Deformable Dense Matching*. ([Project page](https://thoth.inrialpes.fr/src/deepmatching/)). 
 
 Python wrapper works for both Python 3.5 and Python 2.7. Change `PYTHON_VERSION=3.5` in Makefile to respective version number desired.
