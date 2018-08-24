@@ -15,11 +15,15 @@ make clean all
 
 Use：
 
-    Get the help information: ./deepmatching -h
-
-    ./deepmatching 2015-c.jpg 2017_2000x2545.jpg -downscale 1 -lltude 97 28 105 20 -v
+    Get the help information: 
+    
+        ./deepmatching -h
+    
+    Run the code:
+    
+        ./deepmatching 2015-c.jpg 2017_2000x2545.jpg -downscale 1 -lltude 97 28 105 20 -v
    
-                      图片1      图片2                         经纬度 图片2左上角点的经纬度 右下角点的经纬度
+                         图片1      图片2                         经纬度 图片2左上角点的经纬度 右下角点的经纬度
 
 
 Based:
