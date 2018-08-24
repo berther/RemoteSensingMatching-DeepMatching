@@ -1,5 +1,14 @@
 # RemoteSensingMatching-DeepMatching
 
+运行环境：
+    
+    Ubuntu 14.04
+    
+    Caffe
+    
+    C++
+       
+
 实现的功能:
 
     对两个张遥感图像进行匹配（图1,2 的像素可以相差十倍左右，具体倍数取决于图一图二的像素大小）。
